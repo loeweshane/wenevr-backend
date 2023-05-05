@@ -6,6 +6,8 @@ from dbInsert import update_progress, db_insert, add_to_incorrect
 import config
 from urllib.parse import unquote
 
+# New comment
+
 # The user data is going to be stored in a database
 # For any given page, we want to be able to access the
 # necessary user information that the page needs.
