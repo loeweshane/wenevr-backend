@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import json
 from queries import *
 from dbInsert import update_progress, db_insert, add_to_incorrect
-import config
 from urllib.parse import unquote
 
 # New comment
